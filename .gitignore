@@ -1,0 +1,11 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Playwright
+test-results/
+playwright-report/
+
+# General
+*.log
+.env
