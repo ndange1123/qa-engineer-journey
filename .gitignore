@@ -1,11 +1,21 @@
-﻿# Python
+﻿# Python bytecode and cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
 
-# Playwright
-test-results/
-playwright-report/
-
-# General
-*.log
+# Virtual environments
+venv/
+ENV/
 .env
+
+# Playwright specific
+.auth/
+playwright-report/
+test-results/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
