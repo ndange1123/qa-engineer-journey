@@ -106,3 +106,17 @@ def fibonacci(number):
         f1 = fn
 
 fibonacci(20)
+
+
+# remove duplicates from list
+
+def remove_duplicates(lst):
+    result = []
+
+    for item in lst:
+        if item not in result:
+            result.append(item)
+
+    return result
+
+print(remove_duplicates([1, 2, 2, 3, 2, 8,4,5,6,6,4]))
