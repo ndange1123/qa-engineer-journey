@@ -18,9 +18,9 @@ def even_odd(num):
     if type(num) != int :
         return print("Enter valid Number")
     if num % 2 == 0:
-        print(f"Entered Number {num} is even number")
+        return print(f"Entered Number {num} is even number")
     else:
-        print(f"Entered Number {num} is ODD number")
+        return print(f"Entered Number {num} is ODD number")
 
 even_odd("12333")
 
